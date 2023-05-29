@@ -1,5 +1,8 @@
 from django.db import models
 from ckeditor.fields import RichTextField
+from collections import abc as collections_abc
+from django.utils.text import slugify
+
 # Create your models here.
 
 class Article(models.Model):
